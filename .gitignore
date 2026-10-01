@@ -1,0 +1,19 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Local data (never upload: database and students' face photos)
+attendance.db
+dataset/*
+encodings/*
+static/unknown/*
+!dataset/.gitkeep
+!encodings/.gitkeep
+!static/unknown/.gitkeep
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+.claude/
